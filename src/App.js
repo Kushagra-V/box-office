@@ -14,7 +14,7 @@ const theme = {
   },
 };
 
-function App() {
+const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <Switch>
@@ -36,6 +36,6 @@ function App() {
       </Switch>
     </ThemeProvider>
   );
-}
+};
 
 export default App;
