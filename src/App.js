@@ -5,6 +5,7 @@ import { ThemeProvider } from 'styled-components';
 import Home from './pages/Home';
 import Starred from './pages/Starred';
 import Show from './pages/Show';
+import './components/style.scss';
 
 const theme = {
   mainColors: {
